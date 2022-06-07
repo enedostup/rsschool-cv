@@ -1,20 +1,20 @@
-# Ekaterina Nedostup
+# _Ekaterina Nedostup_
 ******
-# Contact information:
+# _Contact information_
 * Phone: +375 29 386 74 03
 * E-mail: katya.nedostup@gmail.com
 *******
-# About Me
+# _About Me_
 I am 26 years old. I live in Minsk, I work as a lawyer. I want to be able to change my occupation at any time, to become more mobile.
 ***
-# Skills
+# _Skills_
 * HTML 
 * Photoshop
 ***
-# Education
+# _Education_
 * University: Belarusian National Economic University, jurisprudence 
 * Courses: Sololearn, HTML
 *****
-# Languages
+# _Languages_
 * Russian - native speaker. 
 * English - A2  
