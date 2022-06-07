@@ -1,6 +1,6 @@
-# _Ekaterina Nedostup_
+# Ekaterina Nedostup
 
-***
+
 
 # _Contact information_
 * Phone: +375 29 386 74 03
