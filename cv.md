@@ -1,23 +1,24 @@
 # Ekaterina Nedostup
+---
 ## Contacts
 
 * Location: Minsk, Belarus
 * Phone: +375 29 000 00 00
 * Email: katya.nedostup@gmail.com
 * GitHub: enedostup
-
+---
 ## About Me
 
-I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
-I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
-
+I am a lawyer who wants to become a programmer.
+Be independent of schedule and location. Set yourself more complex challenges and find solutions.
+---
 ## Skills
 
 * HTML
 * CSS/SASS
 * JavaScript (Basic)
 * Git
-
+---
 ## Code Example
 
 ```
@@ -26,8 +27,9 @@ function getParticipants(handshakes) {
   return a;
 }
 ``` 
-
+---
 ## Education
 
 * University: BSEU
 * Courses: sololearn, codebasics
+---
