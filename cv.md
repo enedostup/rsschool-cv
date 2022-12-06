@@ -13,4 +13,12 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 * JavaScript (Basic)
 * Git
 ## Code Example
+```
+function getParticipants(handshakes) {
+  for (var i = 0, a = 1; i < handshakes; i += a++);
+  return a;
+}
+``` 
 ## Education
+* University: BSEU
+* Courses: sololearn, codebasics
