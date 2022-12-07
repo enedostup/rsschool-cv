@@ -6,6 +6,7 @@
 * Phone: +375 29 000 00 00
 * Email: katya.nedostup@gmail.com
 * GitHub: enedostup
+
 ---
 ## About Me
 
@@ -18,6 +19,7 @@ Be independent of schedule and location. Set yourself more complex challenges an
 * CSS/SASS
 * JavaScript (Basic)
 * Git
+
 ---
 ## Code Example
 
@@ -32,4 +34,5 @@ function getParticipants(handshakes) {
 
 * University: BSEU
 * Courses: sololearn, codebasics
+
 ---
