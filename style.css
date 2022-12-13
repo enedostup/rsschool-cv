@@ -1,16 +1,53 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+html{
+    box-sizing: border-box;
 }
-table {
-    border-collapse: collapse;
+
+body{
+    font-family: 'Lato';
+   font-style: normal;
+   font-size: 16px;
+   line-height: 1.2;
+   font-weight: normal;
+   color: black;
+ }
+
+ .wrapper {
+    max-width: 1060px; /*блок всегда будет ограничиваться по ширине*/
+    margin: 0 auto; /*по центру выравнивает*/
+ }
+
+ .header{
+    position: fixed; /*фиксирует хедер*/
+    top: 0;
+    left: 0;
+    width: 100%;
+
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap; /*перенос*/
+    align-items: flex-end;/*перемещает в нижнюю часть блока*/
+    justify-content: space-between;/*разбрасывает по ширине контейнера*/
+    padding-top: 56px; /*отступ от верхнего края*/
 }
-table.border th {
-    background: #e0e0e0;
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
 }
+.header_item {
+    margin-right: 82px; /*отсуп между словами*/
+}
+.header_item:last-child{
+    margin-right: 0;/*обнуляет отсуп для последнего элемента*/
+}
+
+
+.cv_cards {
+    display: flex;
+    padding: 0 100px;
+ }
+
+ .cv_card {
+margin-right: 55px;
+margin-bottom: 37px;
+ }
