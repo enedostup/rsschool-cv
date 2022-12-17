@@ -5,52 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
-            <div class="header_wrapper">
-                <div class="header_logo">
-                    <a href="/" class="header_logo-link">
-                        <img src="./img/IMG_6767.JPG" alt="photo" class="header_logo-pic">
-                    </a>
-                </div>
-    
-                <nav class="header_nav">
-                    <ul class="header_list">
-                        <li class="header_item">
-                            <a href="#!" class="header_link">Contact</a>
-                        </li>
-                        <li class="header_item">
-                            <a href="#!" class="header_link">About Me</a>
-                        </li>
-                        <li class="header_item">
-                            <a href="#!" class="header_link">Skills</a>
-                        </li>
-                        <li class="header_item">
-                            <a href="#!" class="header_link">Code Example</a>
-                        </li>
-                        <li class="header_item">
-                            <a href="#!" class="header_link">Education</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="#about me">About me</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#code example">Code example</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#education">Education</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section class="cv_cards">
-            <div class="cv_card">
-                <div class="cv_pic">
-                    <img src="./img/svg/location-sign.svg" alt="location">
-                </div>
-                <div class="cv_card_title">
-                    <p>Minsk, Belarus</p>
-
-                </div>
-            </div>>
-        </section>
+    <main class="container">
+        <div class="left-side">
+            <section class="img_left-side">
+                <img src="/img/IMG_6767.JPG" width="380" height="507" class="photo" alt="photo profile">
+            </section>
+            <section class="contact" id="contact">
+                <h2 class="section_title">Contact</h2>
+                <ul class="contact_list">
+                    <li class="contact_item">
+                        <img src="img/svg/location-sign.svg" width="20" alt="Location">Location <br> Minsk, Belarus
+                    </li>
+                    <li class="contact_item">
+                        <img src="img/svg/free-phone-icon-505-thumb.png" width="20" alt="Phone">Phone <br> +375 29 000 00 00
+                    </li>
+                    <li class="contact_item">
+                        <img src="img/svg/147563.svg" width="20" alt="Email">Email <br> katya.nedostup@gmail.com
+                    </li>
+                    <li class="contact_item">
+                        <img src="img/svg/Без названия.png" width="20" alt="GitHub"> GitHub <br> enedostup
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="section_title">Education</h2>
+                <ul class="education_list">
+                    <li class="education_item">
+                        University <br> BSEU
+                    </li>
+                    <li class="education_item">
+                        Courses <br> sololearn, codebasics
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="right-side">
+            <section class="page_titile">
+                <h1 class="main_titile">Ekaterina Nedostup</h1>
+            </section>
+            <section class="about_me" id="about_me">
+                <h2 class="section_titile">About me</h2>
+                <p>I am a lawyer who wants to become a programmer. Be independent of schedule and location. Set yourself more complex challenges and find solutions.</p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section_title">Skills</h2>
+                <ul class="skills_list">
+                    <li class="skills_item">HTML</li>
+                    <li class="skills_item">CSS</li>
+                    <li class="skills_item">JavaScript (Basic)</li>
+                    <li class="skills_item">Git</li>
+                </ul>
+            </section>
+            <section class="code_example" id="code_example">
+                <h2 class="section_title">Code example</h2>
+                <pre>
+            function getParticipants(handshakes) {
+            for (var i = 0, a = 1; i < handshakes; i += a++);
+            return a;
+            }</pre>
+            </section>
+        </div> 
     </main>
-    <footer></footer>
+    <footer class="footer">
+<a class="footer_github" href="https://github.com/enedostup">My GitHub</a>
+<p class_footer_year>2022</p>
+<a class="footer_rsschool" href="https://rs.school/">Rsschool</a>
+    </footer>
 </body>
 </html>

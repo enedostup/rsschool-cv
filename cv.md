@@ -9,7 +9,7 @@ I am a lawyer who wants to become a programmer.
 Be independent of schedule and location. Set yourself more complex challenges and find solutions.
 ### Skills
 * HTML
-* CSS/SASS
+* CSS
 * JavaScript (Basic)
 * Git
 ### Code Example

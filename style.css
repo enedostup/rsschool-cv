@@ -21,33 +21,16 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+    background-color: beige;
 
 }
-.header_wrapper {
+.nav_list {
     display: flex;
-    flex-wrap: wrap; /*перенос*/
-    align-items: flex-end;/*перемещает в нижнюю часть блока*/
-    justify-content: space-between;/*разбрасывает по ширине контейнера*/
-    padding-top: 56px; /*отступ от верхнего края*/
+    justify-content: space-around; /*разбрасывает по ширине*/
+    list-style: none; /*убрали точки*/
+    margin: 0;
 }
-.header_list{
-    display: flex;
-    flex-wrap: wrap;
+.nav a{
+    line-height: 50px;
+    color: black;
 }
-.header_item {
-    margin-right: 82px; /*отсуп между словами*/
-}
-.header_item:last-child{
-    margin-right: 0;/*обнуляет отсуп для последнего элемента*/
-}
-
-
-.cv_cards {
-    display: flex;
-    padding: 0 100px;
- }
-
- .cv_card {
-margin-right: 55px;
-margin-bottom: 37px;
- }
