@@ -34,3 +34,12 @@ body{
     line-height: 50px;
     color: black;
 }
+.container {
+    display: flex;
+}
+.main_title {
+    margin: 100px;
+}
+.section_title {
+    margin-left: 10px;
+}
