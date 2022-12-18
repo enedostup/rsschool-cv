@@ -9,37 +9,88 @@ body{
    line-height: 1.2;
    font-weight: normal;
    color: black;
+   
  }
 
- .wrapper {
-    max-width: 1060px; /*блок всегда будет ограничиваться по ширине*/
-    margin: 0 auto; /*по центру выравнивает*/
- }
-
- .header{
-    position: fixed; /*фиксирует хедер*/
-    top: 0;
-    left: 0;
+  .header{
     width: 100%;
-    background-color: beige;
-
+    height: 50px;
+    font-size: 30px;
+    
 }
 .nav_list {
+    justify-content: space-around;
     display: flex;
-    justify-content: space-around; /*разбрасывает по ширине*/
-    list-style: none; /*убрали точки*/
+    flex-wrap: wrap;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .nav a{
     line-height: 50px;
     color: black;
 }
 .container {
+    width: 100%;
     display: flex;
 }
 .main_title {
-    margin: 100px;
+    margin: 232px;
+    font-size: 60px;
 }
 .section_title {
     margin-left: 10px;
+}
+.photo {
+    width: 100%;
+    object-fit: cover;
+}
+.contact {
+    font-size: 30px;
+  }
+.contact_list{
+    list-style: none;
+}
+.education {
+    padding: 54px 0px 54px 0px;
+    font-size: 30px;
+  }
+.education_list{
+    list-style: none;
+    padding: 30px;
+}
+.skills_list {
+    list-style: none;
+}
+.left-side {
+    width: 30%;
+    color: white;
+    background-color: #0d2757;
+  }
+  .right-side {
+    width: 70%;
+    background-color: #b8d7ff;
+  }
+  .about_me {
+    padding: 0;
+    margin-bottom: 54px;
+    font-size: 30px;
+  }
+  .about_me p{
+    padding: 30px;
+  }
+  .skills {
+    margin-bottom: 54px;
+    font-size: 30px;
+  }
+  .code_example {
+    font-size: 30px;
+  }
+.footer {
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    font-size: 30px;
 }
